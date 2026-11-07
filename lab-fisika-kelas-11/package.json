@@ -1,0 +1,14 @@
+{
+  "name": "lab-fisika-kelas-11",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab Fisika 11: latihan soal dengan mode Siswa/Pengajar dan wahana 3D",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:pages": "wrangler pages deploy public --project-name=lab-fisika-kelas-11"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
